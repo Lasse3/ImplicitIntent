@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
             intent.putExtra(Intent.EXTRA_SUBJECT, "Implicit intent test")
             intent.putExtra(Intent.EXTRA_TEXT, "Hello\nI send this mail to talk about " +
                     "something.\n Except I have forgotten.\n Bye and have a nice day.\n Also did " +
-                    "you know how idiotic this is a bit new text.")
+                    "you know how idiotic this is a bit new text I did this to everything so fuck.")
             if (intent.resolveActivity(packageManager)!= null) {
                 startActivity(intent)
             }
